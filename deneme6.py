@@ -2,7 +2,7 @@ operations=[]
 selectedFoodCategory1=["Waffle = 20 tl","Chocolate cake = 10 tl", "Profiterol = 15 tl"]
 selectedFoodCategory2=["Beer = 25 tl","Coffe = 15 tl", "Hot Chocolate = 15 tl"] 
 selectedFoodCategory3=["Chicken = 20 tl","Hamburger = 25 tl", "Pasta = 25 tl"]
-category=[]
+category=''
  
 inputName=input("enter the username :") 
 
@@ -19,7 +19,7 @@ else:
 if inputName=="yunus.inan" and inputPassword=="12345":  
     print("1 : add product :")
     print("2 : menu page")
-    category=input("select category :")
+    category=str(input("select category :")) 
     
     if category=="1":
          print("which operation :")
